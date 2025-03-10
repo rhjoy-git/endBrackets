@@ -16,8 +16,9 @@ export default {
                 'inter': ['Inter', 'sans-serif'],
             },
             colors: {
-                primary: "#your-primary-color",
-                "primary-dark": "#darker-primary-color",
+                primary: "#FDFDFD",
+                "primary-dark": "#E4E4E4",
+                button: "#6762FF",
             },
         },
     },

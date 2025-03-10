@@ -1,6 +1,6 @@
-<nav x-data="{ isOpen: false, isScrolled: false }" @scroll.window="isScrolled = window.pageYOffset > 50"
-    class="fixed w-full z-50 transition-all duration-50 container lg:py-4"
-    :class="{ 'bg-white bg-opacity-100 backdrop-blur shadow-md': isScrolled }">
+<nav x-data="{ isOpen: false, isScrolled: false }" @scroll.window="isScrolled = window.pageYOffset > 15"
+    class="bg-primary dark:bg-primary-dark fixed w-full z-50 transition-all duration-50 container lg:py-4"
+    :class="{ 'bg-opacity-100 backdrop-blur shadow-md': isScrolled }">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-16">
             <!-- Logo -->
@@ -17,7 +17,7 @@
                 <a href="#services" class="text-gray-600 hover:text-blue transition">Services</a>
                 <a href="#contact" class="text-gray-600 hover:text-blue transition">Contact</a>
                 <a href="#career" class="text-gray-600 hover:text-blue transition">Career</a>
-                <button class="bg-blue-900 text-white px-6 py-2 rounded-full hover:bg-blue-dark transition">
+                <button class="bg-button text-white px-6 py-2  hover:bg-blue-dark transition">
                     Hire Us
                 </button>
             </div>

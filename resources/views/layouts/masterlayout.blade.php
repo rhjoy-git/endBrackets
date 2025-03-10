@@ -16,7 +16,8 @@
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
 
-    
+    <!-- Add Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <!-- Styles / Scripts -->
     @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
     @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -24,16 +25,31 @@
     <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('resources/css/app.css') }}">
     @endif
+    <style>
+        /* Add this to your CSS file or <style> tag */
+        ::-webkit-scrollbar {
+            width: 0 !important;
+            height: 0 !important;
+            background: transparent;
+        }
+
+        body {
+            overflow: -moz-scrollbars-none;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
 </head>
 
-<body
-    class="bg-gray-50 dark:bg-[#0a0a0a] text-[#1b1b18] flex px-6 lg:px-8 items-center lg:justify-start min-h-screen flex-col">
+<body class="bg-primary dark:bg-primary-dark text-[#1b1b18] min-h-screen">
     @hasSection('content')
     @yield('content')
     @endif
 
 
     <!-- Add this before closing body tag -->
+    <!-- Add Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 
 </html>

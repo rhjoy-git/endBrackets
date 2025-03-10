@@ -1,9 +1,9 @@
 <section class="py-16 bg-gray-50">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-12">
         <!-- Header -->
         <div class="mb-12 text-left">
             <h2 class="text-4xl md:text-sm font-bold text-gray-900 mb-4">CHOOSE US —</h2>
-            <p class="text-5xl text-left text-black">
+            <p class="text-5xl text-left text-black w-3/4">
                 We craft user-first experiences that drive growth and make you stand out. 🚀
             </p>
         </div>

@@ -38,7 +38,7 @@
             <!-- Main CTA Card -->
             <div
                 class="col-span-full md:col-span-6 bg-white md:col-start-4 md:row-start-2 bg-primary/10 p-8 rounded-xl flex flex-col items-center justify-center text-center">
-                <h3 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                <h3 class="text-4xl md:text-lg text-gray-900 mb-6">
                     Spot Reserved<br>
                     <span class="text-primary">for You!</span>
                 </h3>

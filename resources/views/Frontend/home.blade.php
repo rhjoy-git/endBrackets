@@ -9,9 +9,13 @@
 
     @include('frontend.particals.choose-us')
 
+    @include('frontend.particals.services')
+
     @include('frontend.particals.clients')
 
     @include('frontend.particals.faq')
+
+    @include('frontend.particals.testimonial')
 
     @include('frontend.particals.contact-us')
 @endsection

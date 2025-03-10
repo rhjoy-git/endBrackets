@@ -1,17 +1,17 @@
 <!-- Hero Section -->
-<section class="relative bg-gray-50 py-20 lg:py-28 mt-10">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-2">
+<section class="relative bg-primary dark:bg-primary-dark py-20 lg:py-28">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-12">
         <div class="flex flex-col lg:flex-row items-center gap-12">
             <!-- Left Content -->
             <div class="lg:w-1/2 text-center lg:text-left">
-                <span class="text-primary font-semibold tracking-wide text-lg">
+                <span>•</span><span class="text-[#1b1b18] font-semibold tracking-wide text-basic">
                     We are taking new projects
                 </span>
                 <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold mt-6 mb-8 leading-tight">
                     Your Partner in Creating Impactful Digital Experiences
                 </h1>
                 <button
-                    class="bg-blue-500 text-white px-8 py-4 rounded-full text-lg hover:bg-primary-dark transition-transform transform hover:scale-105">
+                    class="bg-button text-white px-8 py-4 text-lg hover:bg-primary-dark transition-transform transform hover:scale-105">
                     Book a Free Call
                 </button>
             </div>
@@ -30,7 +30,7 @@
                     <!-- Animated Play Button -->
                     <div class="absolute inset-0 flex items-center justify-center">
                         <div
-                            class="w-20 h-20 lg:w-24 lg:h-24 bg-primary bg-opacity-90 rounded-full flex items-center justify-center group-hover:bg-opacity-100 transition-all duration-300 animate-pulse">
+                            class="w-20 h-20 lg:w-24 lg:h-24 bg-button bg-opacity-90 rounded-full flex items-center justify-center group-hover:bg-opacity-100 transition-all duration-300 animate-pulse">
                             <svg class="w-96 h-auto text-white ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z">
