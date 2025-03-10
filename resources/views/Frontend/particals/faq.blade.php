@@ -1,21 +1,21 @@
-<section class="py-16 bg-gray-50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<section class="py-16 bg-[#FDFDFD]">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-12 overflow-hidden">
         <!-- Header -->
         <div class="mb-12">
-            <h2 class="text-4xl font-bold text-gray-900 mb-4">FAQ —</h2>
-            <p class="text-gray-600 text-lg">Here are the answers you're looking for.</p>
+            <h2 class="text-4xl md:text-sm font-bold text-gray-900 mb-4 text-left">FAQ —</h2>
+            <p class="text-5xl text-left text-black">Here are the answers you're looking for.</p>
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <!-- FAQ Items (Left Column) -->
             <div class="lg:col-span-2 space-y-4">
                 <!-- FAQ Item 1 -->
-                <div x-data="{ open: false }" class="bg-white p-6 rounded-xl shadow-sm transition-all duration-300">
+                <div x-data="{ open: false }" class="bg-neutral-100 p-6 rounded-xl shadow-sm transition-all duration-300">
                     <button @click="open = !open" class="flex justify-between items-center w-full text-left group">
                         <div class="flex items-start space-x-4 min-w-0">
-                            <span class="text-primary font-medium text-lg shrink-0">0.01</span>
+                            <span class="text-button font-medium text-lg shrink-0">0.01</span>
                             <span
-                                class="text-xl font-semibold text-gray-900 group-hover:text-primary transition-colors truncate">
+                                class="text-xl font-semibold text-gray-900 group-hover:text-button transition-colors truncate">
                                 What services does End Brackets offer?
                             </span>
                         </div>
@@ -35,12 +35,12 @@
                 </div>
 
                 <!-- FAQ Item 2 -->
-                <div x-data="{ open: false }" class="bg-white p-6 rounded-xl shadow-sm transition-all duration-300">
+                <div x-data="{ open: false }" class="bg-neutral-100 p-6 rounded-xl shadow-sm transition-all duration-300">
                     <button @click="open = !open" class="flex justify-between items-center w-full text-left group">
                         <div class="flex items-start space-x-4 min-w-0">
-                            <span class="text-primary font-medium text-lg shrink-0">0.02</span>
+                            <span class="text-button font-medium text-lg shrink-0">0.02</span>
                             <span
-                                class="text-xl font-semibold text-gray-900 group-hover:text-primary transition-colors truncate">
+                                class="text-xl font-semibold text-gray-900 group-hover:text-button transition-colors truncate">
                                 Do you work with startups or only established businesses?
                             </span>
                         </div>
@@ -58,12 +58,12 @@
                 </div>
 
                 <!-- FAQ Item 3 -->
-                <div x-data="{ open: false }" class="bg-white p-6 rounded-xl shadow-sm transition-all duration-300">
+                <div x-data="{ open: false }" class="bg-neutral-100 p-6 rounded-xl shadow-sm transition-all duration-300">
                     <button @click="open = !open" class="flex justify-between items-center w-full text-left group">
                         <div class="flex items-start space-x-4 min-w-0">
-                            <span class="text-primary font-medium text-lg shrink-0">0.03</span>
+                            <span class="text-button font-medium text-lg shrink-0">0.03</span>
                             <span
-                                class="text-xl font-semibold text-gray-900 group-hover:text-primary transition-colors truncate">
+                                class="text-xl font-semibold text-gray-900 group-hover:text-button transition-colors truncate">
                                 How do you price your projects?
                             </span>
                         </div>
@@ -82,12 +82,12 @@
                 </div>
 
                 <!-- FAQ Item 4 -->
-                <div x-data="{ open: false }" class="bg-white p-6 rounded-xl shadow-sm transition-all duration-300">
+                <div x-data="{ open: false }" class="bg-neutral-100 p-6 rounded-xl shadow-sm transition-all duration-300">
                     <button @click="open = !open" class="flex justify-between items-center w-full text-left group">
                         <div class="flex items-start space-x-4 min-w-0">
-                            <span class="text-primary font-medium text-lg shrink-0">0.04</span>
+                            <span class="text-button font-medium text-lg shrink-0">0.04</span>
                             <span
-                                class="text-xl font-semibold text-gray-900 group-hover:text-primary transition-colors truncate">
+                                class="text-xl font-semibold text-gray-900 group-hover:text-button transition-colors truncate">
                                 Can I request a custom design or development project?
                             </span>
                         </div>
@@ -110,9 +110,9 @@
 
             <!-- Contact Box (Right Column) -->
             <div class="lg:col-span-1">
-                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 lg:sticky lg:top-8">
+                <div class="bg-neutral-100 p-8 rounded-2xl shadow-lg border border-gray-100 lg:sticky lg:top-8">
                     <div class="mb-6 flex justify-start">
-                        <div class="w-20 h-20 bg-blue-400 rounded-full flex items-center justify-center">
+                        <div class="w-20 h-20 bg-button rounded-full flex items-center justify-center">
                             <svg class="w-10 h-10 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
@@ -125,7 +125,7 @@
                         questions or
                         support you need.
                     </p>
-                    <button class="w-full bg-blue-500 text-white px-8 py-3 rounded-lg hover:bg-primary-dark transition-all 
+                    <button class="w-full bg-button text-white px-8 py-3 rounded-lg hover:bg-[#4a47ba] transition-all 
                                 transform hover:-translate-y-0.5 shadow-sm hover:shadow-md">
                         Ask your question
                     </button>

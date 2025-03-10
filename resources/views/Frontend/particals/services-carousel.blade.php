@@ -13,13 +13,13 @@
     </div>
 </section>
 <style>
-    .item::after {
-    content: '*';
-    position: absolute;
-    right: -1rem;
-    color: #3b82f6;
-    font-size: 3rem;
-    top: 0;
-    transform: translate(250%, 25%);
-}
+    .item:not(:last-child):after {
+        content: '*';
+        position: absolute;
+        right: -1rem;
+        color: #3b82f6;
+        font-size: 3rem;
+        top: 0;
+        transform: translate(250%, 25%);
+    }
 </style>

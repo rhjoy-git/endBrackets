@@ -14,6 +14,9 @@
                     class="bg-button text-white px-8 py-4 text-lg hover:bg-primary-dark transition-transform transform hover:scale-105">
                     Book a Free Call
                 </button>
+                <div class="branding mt-12 max-w-36">
+                    <img class="w-full h-auto" src="{{asset('resources/img/fiverr.png')}}" alt="Fiver Rating">
+                </div>
             </div>
 
             <!-- Video Section -->

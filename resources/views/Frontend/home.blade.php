@@ -1,21 +1,28 @@
 @extends('layouts.masterlayout')
 
 @section('content')
-    @include('frontend.particals.navbar')
+{{-- Navbar --}}
+@include('frontend.particals.navbar')
+{{-- Hero Section --}}
+@include('frontend.particals.hero-section')
 
-    @include('frontend.particals.hero-section')
-
-    @include('frontend.particals.services-carousel')
-
-    @include('frontend.particals.choose-us')
-
-    @include('frontend.particals.services')
-
-    @include('frontend.particals.clients')
-
-    @include('frontend.particals.faq')
-
-    @include('frontend.particals.testimonial')
-
-    @include('frontend.particals.contact-us')
+{{-- @include('frontend.particals.test') --}}
+{{-- Services Carousel --}}
+@include('frontend.particals.services-carousel')
+{{-- Service We Provide --}}
+@include('frontend.particals.services')
+{{-- Why Choose Us --}}
+@include('frontend.particals.choose-us')
+{{-- Clients --}}
+@include('frontend.particals.clients')
+{{-- FAQ  --}}
+@include('frontend.particals.faq')
+{{-- Testimonial --}}
+@include('frontend.particals.testimonial')
+{{-- Contact Us --}}
+@include('frontend.particals.contact-us')
+{{-- Branding --}}
+@include('frontend.particals.branding')
+{{-- Footer  --}}
+@include('frontend.particals.footer')
 @endsection

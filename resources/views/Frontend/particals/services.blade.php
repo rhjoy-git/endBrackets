@@ -11,7 +11,7 @@
             </p>
         </div>
         <!-- Slider Container -->
-        <div class="swiper-container services-slider relative">
+        <div class="swiper-container services-slider relative lg:pl-40">
             <div class="swiper-wrapper">
                 <!-- Service Items -->
                 <div class="swiper-slide h-auto">
@@ -89,6 +89,10 @@
             clickable: true,
         },
         breakpoints: {
+            0: { 
+                slidesPerView: 1,
+                centeredSlides: false
+            },
             640: { 
                 slidesPerView: 2,
                 centeredSlides: false

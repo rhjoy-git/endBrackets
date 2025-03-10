@@ -1,6 +1,6 @@
-<section class="py-16 bg-gray-50">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid md:grid-cols-2 gap-12 md:gap-28">
+<section class="py-16 bg-white">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-20">
+        <div class="grid md:grid-cols-2 gap-12 md:gap-20">
             <!-- Left Content -->
             <div class="space-y-8">
                 <div class="space-y-7">
@@ -13,7 +13,7 @@
                     </p>
                 </div>
 
-                <div class="bg-blue-400 p-6 rounded-xl">
+                <div class="bg-button p-6 w-fit">
                     <p class="text-lg font-semibold text-primary">
                         🚀 We are taking new projects
                     </p>
@@ -66,7 +66,7 @@
                 </div>
 
                 <button type="submit" 
-                        class="w-full bg-blue-500 text-white px-8 py-4 rounded-lg hover:bg-primary-dark transition-all 
+                        class="w-full bg-button text-white px-8 py-4 hover:bg-[#534ee3] transition-all 
                                transform hover:-translate-y-0.5 shadow-md hover:shadow-lg">
                     Submit
                 </button>
