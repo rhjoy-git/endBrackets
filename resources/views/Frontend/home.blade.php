@@ -11,18 +11,19 @@
 @include('frontend.particals.services-carousel')
 {{-- Service We Provide --}}
 @include('frontend.particals.services')
+{{-- Testimonial --}}
+@include('frontend.particals.testimonial')
 {{-- Why Choose Us --}}
 @include('frontend.particals.choose-us')
 {{-- Clients --}}
 @include('frontend.particals.clients')
-{{-- FAQ  --}}
+{{-- FAQ --}}
 @include('frontend.particals.faq')
-{{-- Testimonial --}}
-@include('frontend.particals.testimonial')
+
 {{-- Contact Us --}}
 @include('frontend.particals.contact-us')
 {{-- Branding --}}
 @include('frontend.particals.branding')
-{{-- Footer  --}}
+{{-- Footer --}}
 @include('frontend.particals.footer')
 @endsection

@@ -1,13 +1,13 @@
 <!-- Hero Section -->
-<section class="relative bg-primary dark:bg-primary-dark py-20 lg:py-28">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+<section class="relative bg-primary dark:bg-primary-dark py-20 lg:py-28 lg:px-16 lg:mt-20">
+    <div class="w-full mx-auto px-4 sm:px-6 lg:px-12">
         <div class="flex flex-col lg:flex-row items-center gap-12">
             <!-- Left Content -->
             <div class="lg:w-1/2 text-center lg:text-left">
-                <span>•</span><span class="text-[#1b1b18] font-semibold tracking-wide text-basic">
+                <span class="text-neutral-900 font-semibold tracking-wide text-[18px]">
                     We are taking new projects
                 </span>
-                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold mt-6 mb-8 leading-tight">
+                <h1 class="max-w-4xl text-4xl sm:text-5xl lg:text-[100px] font-medium mt-6 mb-8 leading-6 tracking-tight">
                     Your Partner in Creating Impactful Digital Experiences
                 </h1>
                 <button

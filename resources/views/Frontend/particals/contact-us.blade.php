@@ -1,10 +1,10 @@
-<section class="py-16 bg-white">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-20">
+<section class="py-16 bg-primary dark:bg-primary-dark lg:py-28 lg:px-16">
+    <div class="w-full mx-auto px-4 sm:px-6 lg:px-12 overflow-hidden">
         <div class="grid md:grid-cols-2 gap-12 md:gap-20">
             <!-- Left Content -->
             <div class="space-y-8">
                 <div class="space-y-7">
-                    <h2 class="text-4xl md:text-7xl font-bold text-gray-900">Let's talk.<br>It begins here.</h2>
+                    <h2 class="max-w-4xl text-4xl sm:text-5xl lg:text-[100px] font-medium mt-6 mb-8 leading-6 tracking-tight">Let's talk.<br>It begins here.</h2>
                     <p class="text-lg text-gray-600">
                         you can mail too – 
                         <a href="mailto:hello@endbrackets.com" class="text-black text-xl font-bold hover:text-primary-dark">

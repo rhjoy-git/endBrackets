@@ -1,5 +1,5 @@
-<footer class="py-16 bg-[#FDFDFD] text-black">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-12 overflow-hidden">
+<footer class="py-16 bg-primary dark:bg-primary-dark lg:pt-28 lg:pb-5 lg:px-16">
+    <div class="w-full mx-auto px-4 sm:px-6 lg:px-12 overflow-hidden">
         {{-- Main Content Section --}}
         <div class="flex flex-wrap gap-4 justify-between items-center mx-auto text-center mb-16">
             <a href="#" class="flex items-center">
@@ -65,7 +65,7 @@
             </div>
         </div>
         <div class="mt-8">
-            <h1 class="capitalize text-center text-9xl font-bold text-[#E9E8FF]">end Brackets</h1>
+            <h1 class="capitalize text-center text-[250px] font-bold leading-none text-[#E9E8FF]">end Brackets</h1>
         </div>
     </div>
 </footer>
