@@ -16,10 +16,13 @@ export default {
                 mono: ["DM Mono", ...defaultTheme.fontFamily.mono],
             },
             colors: {
-                primary: "#FDFDFD",
-                "primary-dark": "#E4E4E4",
+                primary: "#FFFFFF",
                 button: "#6762FF",
-                neon: { 500: "#CEFF5F" },
+                'head-color': "#374151",
+                'content-color': "#111827",
+                'faq-color': "#4B5563",
+                'bg-neon': "#CEFF5F",
+                'bg-cart': "#F3F4F6",
                 neutral: {900: "#111827"},
             },
             animation: {

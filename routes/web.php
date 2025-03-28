@@ -9,7 +9,9 @@ Route::get('/', function () {
 
 
 
-
+Route::get('/work', function(){
+    return view('frontend.particals.our-work');
+});
 
 
 

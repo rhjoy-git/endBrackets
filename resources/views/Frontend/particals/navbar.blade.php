@@ -11,13 +11,14 @@
             </div>
 
             <!-- Desktop Menu -->
-            <div class="hidden md:flex items-center space-x-8 text-base">
-                <a href="#works" class="text-neutral-900 hover:text-blue transition">Works</a>
-                <a href="#about" class="text-neutral-900 hover:text-blue transition">About</a>
-                <a href="#services" class="text-neutral-900 hover:text-blue transition">Services</a>
-                <a href="#contact" class="text-neutral-900 hover:text-blue transition">Contact</a>
-                <a href="#career" class="text-neutral-900 hover:text-blue transition">Career</a>
-                <button class="bg-button text-white px-6 py-2 h-[60px] w-[150px] hover:bg-blue-dark transition">
+            <div class="hidden md:flex items-center space-x-8 text-base font-semibold">
+                <a href="#works" class="text-content-color hover:text-blue transition">Works</a>
+                <a href="#about" class="text-content-color hover:text-blue transition">About</a>
+                <a href="#services" class="text-content-color hover:text-blue transition">Services</a>
+                <a href="#contact" class="text-content-color hover:text-blue transition">Contact</a>
+                <a href="#career" class="text-content-color hover:text-blue transition">Career</a>
+                <button
+                    class="bg-button py-4 px-10 text-lg text-white border-none font-normal uppercase flex items-center">
                     Hire Us
                 </button>
             </div>
@@ -25,7 +26,7 @@
             <!-- Mobile Menu Button -->
             <div class="md:hidden">
                 <button @click="isOpen = !isOpen" type="button"
-                    class="inline-flex items-center justify-center p-2 rounded-md text-neutral-900 hover:text-blue focus:outline-none"
+                    class="inline-flex items-center justify-center p-2 rounded-md text-content-color hover:text-blue focus:outline-none"
                     aria-controls="mobile-menu" :aria-expanded="isOpen">
                     <span class="sr-only">Open main menu</span>
                     <svg x-show="!isOpen" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -45,11 +46,11 @@
     <!-- Mobile Menu -->
     <div class="md:hidden" x-show="isOpen" @click.away="isOpen = false" x-collapse>
         <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a href="#works" class="block text-neutral-900 hover:text-blue px-3 py-2">Works</a>
-            <a href="#about" class="block text-neutral-900 hover:text-blue px-3 py-2">About</a>
-            <a href="#services" class="block text-neutral-900 hover:text-blue px-3 py-2">Services</a>
-            <a href="#contact" class="block text-neutral-900 hover:text-blue px-3 py-2">Contact</a>
-            <a href="#career" class="block text-neutral-900 hover:text-blue px-3 py-2">Career</a>
+            <a href="#works" class="block text-content-color hover:text-blue px-3 py-2">Works</a>
+            <a href="#about" class="block text-content-color hover:text-blue px-3 py-2">About</a>
+            <a href="#services" class="block text-content-color hover:text-blue px-3 py-2">Services</a>
+            <a href="#contact" class="block text-content-color hover:text-blue px-3 py-2">Contact</a>
+            <a href="#career" class="block text-content-color hover:text-blue px-3 py-2">Career</a>
             <button class="w-full bg-blue text-white px-6 py-2 rounded-full hover:bg-blue-dark transition">
                 Hire Us
             </button>

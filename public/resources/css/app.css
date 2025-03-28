@@ -234,7 +234,7 @@
         --color-neutral-600: oklch(.439 0 0);
         --color-neutral-700: oklch(.371 0 0);
         --color-neutral-800: oklch(.269 0 0);
-        --color-neutral-900: oklch(.205 0 0);
+        --color-content-color: oklch(.205 0 0);
         --color-neutral-950: oklch(.145 0 0);
         --color-stone-50: oklch(.985 .001 106.423);
         --color-stone-100: oklch(.97 .001 106.424);
